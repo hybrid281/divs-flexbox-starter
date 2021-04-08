@@ -104,7 +104,6 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
   height: 100%;
 }
 
@@ -113,24 +112,74 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+header {
+  background-color: #222;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding-left: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+main {
+  background-color: #222;
+  font-size: 1.5em;
+  color: #fff;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #111111;
+  color: #fff;
   line-height: 1.5em;
-  font-size: 1em;
-  background-color: #9ee8e8;
+  font-size: 1.20em;
+  background-color: #222;
   height: 300px;
-  display: flex;
+  display:flex;
   width: 30%;
   justify-content: center;
-  align-items: center;
   padding: 0 10px;
+  align-items: center;
   border: 1px solid lightgray;
 }
 
+footer {
+  background-color: #222;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1em;
+}
 
+
+/*.flex-items {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.6em;
+  background-color: #f16059;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}*/
 
 
 /* ==========================================================================
